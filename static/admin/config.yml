@@ -79,10 +79,11 @@ collections:
 
   - name: "service"
     label: "Service"
-    folder: "src/content/service"
+    folder: "src/pages/service"
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
       - {label: "Service Title", name: "title", widget: "string"}
       - {label: "Featured Label", name: "featuredlabel", widget: "string"}
       - {label: "Meta Title", name: "metatitle", widget: "string"}
@@ -94,7 +95,7 @@ collections:
 
   - name: "author"
     label: "Author"
-    folder: "src/content/author"
+    folder: "src/pages/author"
     create: true
     slug: "{{slug}}"
     fields:
