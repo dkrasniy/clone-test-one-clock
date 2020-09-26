@@ -77,7 +77,7 @@ collections:
 
   - name: "service"
     label: "Service"
-    folder: "src/pages/blog"
+    folder: "src/pages/service"
     create: true
     slug: "{{slug}}"
     fields:
