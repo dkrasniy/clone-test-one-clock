@@ -12,6 +12,16 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "settings"
+    label: "Settings"
+    files: 
+      - file: "src/settings/contact_info.json"
+        label: "Company Information"
+        name: "contact_info"
+        fields:
+          - {label: "Company Name", name: "companyname", widget: "string"}
+          - {label: "Phone", name: "phonenumber", widget: "string"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
