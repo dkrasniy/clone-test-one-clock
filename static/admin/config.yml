@@ -97,7 +97,6 @@ collections:
     label: "Author"
     folder: "src/pages/author"
     create: true
-    slug: "{{slug}}"
     fields:
       - {label: "Name", name: "name", widget: "string"} 
       - {label: "Slug", name: "slug", widget: "string"} 
