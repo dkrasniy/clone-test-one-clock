@@ -1,4 +1,5 @@
 ---
+templateKey: service-page
 title: Slider Windows
 featuredlabel: Slider Windows
 metatitle: Slider Windows Sacramento | Replacement Slider Window Installation
