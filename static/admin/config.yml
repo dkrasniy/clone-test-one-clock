@@ -83,6 +83,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Service Title", name: "title", widget: "string"}
       - {label: "Featured Label", name: "featuredlabel", widget: "string"}
       - {label: "Meta Title", name: "metatitle", widget: "string"}
