@@ -28,6 +28,7 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-plugin-postcss`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
