@@ -1,4 +1,4 @@
 ---
 name: David Kras
-slug: dkrasniy
+slug: dkrasniynew
 ---
