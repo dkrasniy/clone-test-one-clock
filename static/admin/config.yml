@@ -98,6 +98,7 @@ collections:
     folder: "src/pages/author"
     create: true
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-page"}
       - {label: "Name", name: "name", widget: "string"} 
       - {label: "Slug", name: "slug", widget: "string"} 
           
