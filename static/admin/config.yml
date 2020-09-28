@@ -117,7 +117,7 @@ collections:
     folder: "src/pages/author"
     create: true
     fields: 
-      - {label: "ID", name: "id", widget: "id"}
+      - {label: "ID", name: "authoruid", widget: "id"}
       - {label: "Name", name: "name", widget: "string"} 
       - {label: "Slug", name: "slug", widget: "string"} 
           
