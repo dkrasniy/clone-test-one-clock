@@ -20,7 +20,7 @@ collections:
         name: "contact_info"
         fields:
           - {label: "Company Name", name: "companyname", widget: "string"}
-          - {label: "Company Name Full", name: "companyname", widget: "string", hint: "Includes Inc, LLC, etc"}
+          - {label: "Company Name Full", name: "companynamefull", widget: "string", hint: "Includes Inc, LLC, etc"}
           - {label: "Phone", name: "phonenumber", widget: "string"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "Address Line 1", name: "addressLine1", widget: "string"}
