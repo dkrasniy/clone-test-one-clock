@@ -20,8 +20,27 @@ collections:
         name: "contact_info"
         fields:
           - {label: "Company Name", name: "companyname", widget: "string"}
+          - {label: "Company Name Full", name: "companyname", widget: "string", hint: "Includes Inc, LLC, etc"}
           - {label: "Phone", name: "phonenumber", widget: "string"}
-
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address Line 1", name: "addressLine1", widget: "string"}
+          - {label: "Address Line 2", name: "addressLine2", widget: "string"}
+          - {label: "City", name: "city", widget: "string"}
+          - {label: "State", name: "state", widget: "string"}
+          - {label: "Zip", name: "zip", widget: "string"}
+      - file: "src/settings/company_brand.json"
+        label: "Branding"
+        name: "company_brand"
+        fields:
+          - {label: "Company Logo", name: "companylogo", widget: "text"}
+      - file: "src/settings/advanced_settings.json"
+        label: "Advanced"
+        name: "advanced_settings"
+        fields:
+          - {label: "Google Analytics Tracking ID", name: "gatrackingid", widget: "string"}
+          - {label: "Development Mode", name: "developmentMode", widget: "boolean", hint: "Dev mode will only build a single splash page with a coming soon message."}
+          
+          
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -98,6 +117,7 @@ collections:
     folder: "src/pages/author"
     create: true
     fields: 
+      - {label: "ID", name: "id", widget: "id"}
       - {label: "Name", name: "name", widget: "string"} 
       - {label: "Slug", name: "slug", widget: "string"} 
           

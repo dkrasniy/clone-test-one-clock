@@ -5,7 +5,10 @@ import contactinfo from '../settings/contact_info.json'
 function Navbar() {
 
   return (
-  <div className="bg-red-500">{contactinfo.companyname}</div>
+  <div className="bg-white">
+    <div className="container text-center p-8">
+      {contactinfo.companyname}</div></div>
+      
   )
 }
 

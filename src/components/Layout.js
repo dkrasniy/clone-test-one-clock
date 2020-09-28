@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import '../styles/tailwind.css'
+import contactinfo from '../settings/contact_info.json'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -12,7 +13,7 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>{contactinfo.companyname}</title>
         <meta name="description" content={description} />
 
         <link
